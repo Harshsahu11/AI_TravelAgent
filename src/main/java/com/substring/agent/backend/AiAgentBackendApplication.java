@@ -1,13 +1,12 @@
-package com.detrox.travel_agent_ai;
+package com.substring.agent.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TravelAgentAiApplication {
-
+public class AiAgentBackendApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(TravelAgentAiApplication.class, args);
+		SpringApplication.run(AiAgentBackendApplication.class, args);
 	}
 
 }
