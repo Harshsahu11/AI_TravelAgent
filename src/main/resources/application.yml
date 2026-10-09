@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: travel-agent-ai
+  ai:
+    google:
+      genai:
+        api-key: ${GEMINI_API_KEY:default-key}
+        chat:
+          model: ${CHAT_MODEL:gemini-3.5-flash-lite}
+
+server:
+  port: 8081
+
